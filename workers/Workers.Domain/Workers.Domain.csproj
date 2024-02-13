@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.15" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Interfaces\" />
+    <None Remove="Workers.Application\obj\Workers.Application.csproj.nuget.g.targets" />
+    <None Remove="Workers.Application\obj\Debug\net7.0\Workers.Application.pdb" />
+    <None Remove="Workers.Application\obj\Debug\net7.0\Workers.Application.csproj.CopyComplete" />
+    <None Remove="Workers.Application\obj\Debug\net7.0\Workers.Application.assets.cache" />
+    <None Remove="Workers.Application\obj\Debug\net7.0\Workers.Application.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Remove="Workers.Application\obj\Debug\net7.0\Workers.Application.csproj.CoreCompileInputs.cache" />
+    <None Remove="Workers.Application\obj\Debug\net7.0\Workers.Application.dll" />
+    <None Remove="Workers.Application\obj\Debug\net7.0\Workers.Application.csproj.FileListAbsolute.txt" />
+    <None Remove="Workers.Application\obj\Debug\net7.0\Workers.Application.AssemblyInfoInputs.cache" />
+    <None Remove="Workers.Application\obj\Debug\net7.0\ref\Workers.Application.dll" />
+    <None Remove="Workers.Application\obj\Debug\net7.0\refint\Workers.Application.dll" />
+    <None Remove="Workers.Application\bin\Debug\net7.0\Workers.Application.pdb" />
+    <None Remove="Workers.Application\bin\Debug\net7.0\Workers.Domain.pdb" />
+    <None Remove="Workers.Application\bin\Debug\net7.0\Workers.Application.deps.json" />
+    <None Remove="Workers.Application\bin\Debug\net7.0\Workers.Domain.dll" />
+    <None Remove="Workers.Application\bin\Debug\net7.0\Workers.Application.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Workers.Application\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Remove="Workers.Application\obj\Debug\net7.0\Workers.Application.AssemblyInfo.cs" />
+    <Compile Remove="Workers.Application\obj\Debug\net7.0\Workers.Application.GlobalUsings.g.cs" />
+    <Compile Remove="Workers.Application\Common\Mappings\AssemblyMappingProfile.cs" />
+    <Compile Remove="Workers.Application\Common\Mappings\IMapWith.cs" />
+    <Compile Remove="Workers.Application\Workers\Commands\DeleteWorkerById\DeleteWorkerByIdCommand.cs" />
+    <Compile Remove="Workers.Application\Workers\Commands\DeleteWorkerById\DeleteWorkerByIdCommandHandler.cs" />
+    <Compile Remove="Workers.Application\Workers\Commands\CreateWorker\CreateWorkerCommand.cs" />
+    <Compile Remove="Workers.Application\Workers\Commands\CreateWorker\CreateWorkerCommandHandler.cs" />
+    <Compile Remove="Workers.Application\Data\DTOs\WorkerDto.cs" />
+    <Compile Remove="Workers.Application\Interfaces\IWorkerDbContext.cs" />
+    <Compile Remove="Workers.Application\Workers\Queries\GetWorkers\GetWorkersQueryHandler.cs" />
+    <Compile Remove="Workers.Application\Workers\Queries\GetWorkers\GetWorkersQuery.cs" />
+    <Compile Remove="Workers.Application\Workers\Queries\GetWorkerById\GetWorkerByIdQueryHandler.cs" />
+    <Compile Remove="Workers.Application\Workers\Queries\GetWorkerById\GetWorkerByIdQuery.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Common\" />
+    <None Remove="Common\Mappings\" />
+    <None Remove="Workers\" />
+    <None Remove="Workers\Commands\" />
+    <None Remove="Workers\Commands\CreateWorker\" />
+    <None Remove="Data\DTOs\" />
+    <None Remove="Workers\Commands\DeleteWorkerById\" />
+    <None Remove="Workers\Queries\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Common\" />
+    <Folder Include="Common\Mappings\" />
+    <Folder Include="Workers\" />
+    <Folder Include="Workers\Commands\" />
+    <Folder Include="Workers\Commands\CreateWorker\" />
+    <Folder Include="Data\DTOs\" />
+    <Folder Include="Workers\Commands\DeleteWorkerById\" />
+    <Folder Include="Workers\Queries\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Workers.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.15" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+  </ItemGroup>
+</Project>
