@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Workers.Persistance;
 
@@ -11,9 +12,11 @@ using Workers.Persistance;
 namespace Workers.WebApi.Migrations
 {
     [DbContext(typeof(WorkerDbContext))]
-    partial class WorkerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240215101223_NewModelAdd1")]
+    partial class NewModelAdd1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

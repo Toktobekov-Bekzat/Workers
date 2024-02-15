@@ -11,8 +11,9 @@ namespace Workers.Persistance
     {
 		public DbSet<Worker> Workers { get; set; }
         public DbSet<Gender> Genders { get; set; }
+        public DbSet<WorkerPositions> WorkerPositions { get; set; }
 
-		public WorkerDbContext(DbContextOptions<WorkerDbContext> options) : base(options)
+        public WorkerDbContext(DbContextOptions<WorkerDbContext> options) : base(options)
 		{
 
 		}

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Workers.Persistance;
 
@@ -11,9 +12,11 @@ using Workers.Persistance;
 namespace Workers.WebApi.Migrations
 {
     [DbContext(typeof(WorkerDbContext))]
-    partial class WorkerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240215100807_NewModelAdd")]
+    partial class NewModelAdd
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -154,33 +157,6 @@ namespace Workers.WebApi.Migrations
                     b.ToTable("Workers", (string)null);
                 });
 
-            modelBuilder.Entity("Workers.Domain.WorkerPositions", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("EndDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("PositionId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("StartDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("WorkerId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("PositionId");
-
-                    b.ToTable("WorkerPositions");
-                });
-
             modelBuilder.Entity("Workers.Domain.Worker", b =>
                 {
                     b.HasOne("Workers.Domain.Gender", "Gender")
@@ -204,15 +180,6 @@ namespace Workers.WebApi.Migrations
                     b.Navigation("Position");
                 });
 
-            modelBuilder.Entity("Workers.Domain.WorkerPositions", b =>
-                {
-                    b.HasOne("Workers.Domain.Position", null)
-                        .WithMany("WorkerPositions")
-                        .HasForeignKey("PositionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("Workers.Domain.Gender", b =>
                 {
                     b.Navigation("Worker")
@@ -221,8 +188,6 @@ namespace Workers.WebApi.Migrations
 
             modelBuilder.Entity("Workers.Domain.Position", b =>
                 {
-                    b.Navigation("WorkerPositions");
-
                     b.Navigation("Workers");
                 });
 #pragma warning restore 612, 618

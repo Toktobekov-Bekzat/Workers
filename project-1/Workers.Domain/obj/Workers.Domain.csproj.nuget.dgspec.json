@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Domain.csproj": {}
+    "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Domain.csproj": {}
   },
   "projects": {
-    "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Domain.csproj": {
+    "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Domain.csproj",
+        "projectUniqueName": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Domain.csproj",
         "projectName": "Workers.Domain",
-        "projectPath": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Domain.csproj",
+        "projectPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Domain.csproj",
         "packagesPath": "/Users/bekzattoktobekov/.nuget/packages/",
-        "outputPath": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/obj/",
+        "outputPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bekzattoktobekov/.nuget/NuGet/NuGet.Config"

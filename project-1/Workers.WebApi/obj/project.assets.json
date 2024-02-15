@@ -3467,11 +3467,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bekzattoktobekov/Projects/workers/Workers.WebApi/Workers.WebApi.csproj",
+      "projectUniqueName": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.WebApi/Workers.WebApi.csproj",
       "projectName": "Workers.WebApi",
-      "projectPath": "/Users/bekzattoktobekov/Projects/workers/Workers.WebApi/Workers.WebApi.csproj",
+      "projectPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.WebApi/Workers.WebApi.csproj",
       "packagesPath": "/Users/bekzattoktobekov/.nuget/packages/",
-      "outputPath": "/Users/bekzattoktobekov/Projects/workers/Workers.WebApi/obj/",
+      "outputPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.WebApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/bekzattoktobekov/.nuget/NuGet/NuGet.Config"
@@ -3486,8 +3486,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/bekzattoktobekov/Projects/workers/Workers.Persistance/Workers.Persistance.csproj": {
-              "projectPath": "/Users/bekzattoktobekov/Projects/workers/Workers.Persistance/Workers.Persistance.csproj"
+            "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/Workers.Persistance.csproj": {
+              "projectPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/Workers.Persistance.csproj"
             }
           }
         }

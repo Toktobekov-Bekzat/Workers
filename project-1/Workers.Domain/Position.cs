@@ -7,5 +7,7 @@
 
         // Navigation property for the workers in this position
         public ICollection<Worker> Workers { get; set; }
+
+        public ICollection<WorkerPositions> WorkerPositions { get; set; }
     }
 }

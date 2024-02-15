@@ -2740,11 +2740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Application/Workers.Application.csproj",
+      "projectUniqueName": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Application/Workers.Application.csproj",
       "projectName": "Workers.Application",
-      "projectPath": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Application/Workers.Application.csproj",
+      "projectPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Application/Workers.Application.csproj",
       "packagesPath": "/Users/bekzattoktobekov/.nuget/packages/",
-      "outputPath": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Application/obj/",
+      "outputPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/bekzattoktobekov/.nuget/NuGet/NuGet.Config"
@@ -2759,8 +2759,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Domain.csproj": {
-              "projectPath": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Domain.csproj"
+            "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Domain.csproj": {
+              "projectPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Domain.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bekzattoktobekov/Projects/workers/Workers.WebApi/Workers.WebApi.csproj": {}
+    "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.WebApi/Workers.WebApi.csproj": {}
   },
   "projects": {
-    "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Application/Workers.Application.csproj": {
+    "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Application/Workers.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Application/Workers.Application.csproj",
+        "projectUniqueName": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Application/Workers.Application.csproj",
         "projectName": "Workers.Application",
-        "projectPath": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Application/Workers.Application.csproj",
+        "projectPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Application/Workers.Application.csproj",
         "packagesPath": "/Users/bekzattoktobekov/.nuget/packages/",
-        "outputPath": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Application/obj/",
+        "outputPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bekzattoktobekov/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Domain.csproj": {
-                "projectPath": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Domain.csproj"
+              "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Domain.csproj": {
+                "projectPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Domain.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Domain.csproj": {
+    "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Domain.csproj",
+        "projectUniqueName": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Domain.csproj",
         "projectName": "Workers.Domain",
-        "projectPath": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Domain.csproj",
+        "projectPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Domain.csproj",
         "packagesPath": "/Users/bekzattoktobekov/.nuget/packages/",
-        "outputPath": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/obj/",
+        "outputPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bekzattoktobekov/.nuget/NuGet/NuGet.Config"
@@ -146,14 +146,14 @@
         }
       }
     },
-    "/Users/bekzattoktobekov/Projects/workers/Workers.Persistance/Workers.Persistance.csproj": {
+    "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/Workers.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bekzattoktobekov/Projects/workers/Workers.Persistance/Workers.Persistance.csproj",
+        "projectUniqueName": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/Workers.Persistance.csproj",
         "projectName": "Workers.Persistance",
-        "projectPath": "/Users/bekzattoktobekov/Projects/workers/Workers.Persistance/Workers.Persistance.csproj",
+        "projectPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/Workers.Persistance.csproj",
         "packagesPath": "/Users/bekzattoktobekov/.nuget/packages/",
-        "outputPath": "/Users/bekzattoktobekov/Projects/workers/Workers.Persistance/obj/",
+        "outputPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bekzattoktobekov/.nuget/NuGet/NuGet.Config"
@@ -168,8 +168,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Application/Workers.Application.csproj": {
-                "projectPath": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Application/Workers.Application.csproj"
+              "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Application/Workers.Application.csproj": {
+                "projectPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Application/Workers.Application.csproj"
               }
             }
           }
@@ -213,14 +213,14 @@
         }
       }
     },
-    "/Users/bekzattoktobekov/Projects/workers/Workers.WebApi/Workers.WebApi.csproj": {
+    "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.WebApi/Workers.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bekzattoktobekov/Projects/workers/Workers.WebApi/Workers.WebApi.csproj",
+        "projectUniqueName": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.WebApi/Workers.WebApi.csproj",
         "projectName": "Workers.WebApi",
-        "projectPath": "/Users/bekzattoktobekov/Projects/workers/Workers.WebApi/Workers.WebApi.csproj",
+        "projectPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.WebApi/Workers.WebApi.csproj",
         "packagesPath": "/Users/bekzattoktobekov/.nuget/packages/",
-        "outputPath": "/Users/bekzattoktobekov/Projects/workers/Workers.WebApi/obj/",
+        "outputPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.WebApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bekzattoktobekov/.nuget/NuGet/NuGet.Config"
@@ -235,8 +235,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/bekzattoktobekov/Projects/workers/Workers.Persistance/Workers.Persistance.csproj": {
-                "projectPath": "/Users/bekzattoktobekov/Projects/workers/Workers.Persistance/Workers.Persistance.csproj"
+              "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/Workers.Persistance.csproj": {
+                "projectPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/Workers.Persistance.csproj"
               }
             }
           }

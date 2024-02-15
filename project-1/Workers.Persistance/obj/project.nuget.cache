@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iGqQIdhY13F715R6UEa70PPfT3l8NtJ7e4G8GEhZtYITekvJk0jHVWnZcyN8kJx77+AgmlgtExn3hQriGGVB6g==",
+  "dgSpecHash": "mwlxF5w35GSiksPrUZVWCgyocdu1PakuaCqxRAShY2QaRRBKYokd1z8zaXXHlsly1QxpZvsM3RCrC1NXT6X3ow==",
   "success": true,
-  "projectFilePath": "/Users/bekzattoktobekov/Projects/workers/Workers.Persistance/Workers.Persistance.csproj",
+  "projectFilePath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/Workers.Persistance.csproj",
   "expectedPackageFiles": [
     "/Users/bekzattoktobekov/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/bekzattoktobekov/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RLg8VyfpFMJHWUzWsemzzwlmUDfZndOwQwJPUVSchoH/7Bnu4JrCRTnMbwfIxKubGfyeFP7bLacHDY6cozZD8w==",
+  "dgSpecHash": "l3SDHAJRbUbMFk3H0dPfd1IJsN8Ffmxh2fuOg6Q/qzqQl+4zFam8RrMBuvtEPM7ahq1BHM7TX5c2sv7vEvZtuA==",
   "success": true,
-  "projectFilePath": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Domain.csproj",
+  "projectFilePath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Domain.csproj",
   "expectedPackageFiles": [
     "/Users/bekzattoktobekov/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/bekzattoktobekov/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",

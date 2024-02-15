@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CmMWe2U4Pe95OWbQRzLi4jTm1zPVbdar7oOkA2Su3bTU64qyTrtN4re8Q3xsHT3+5t/w+rn+bEiX7+OCqOF0IA==",
+  "dgSpecHash": "a4GsxzkoncYKQ9e4Hp2T/PSANk//COl0dFWc0Umw8N8PBQzyq/3f4puddzR7tBvuYkvpIZP5mgJ/wpzVr9xd/Q==",
   "success": true,
-  "projectFilePath": "/Users/bekzattoktobekov/Projects/workers/Workers.Domain/Workers.Application/Workers.Application.csproj",
+  "projectFilePath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Application/Workers.Application.csproj",
   "expectedPackageFiles": [
     "/Users/bekzattoktobekov/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/bekzattoktobekov/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
