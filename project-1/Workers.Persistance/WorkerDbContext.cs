@@ -25,9 +25,9 @@ namespace Workers.Persistance
 
             // Define the relationship between Worker and Gender entities
             builder.Entity<Worker>()
-        .HasOne(w => w.Gender)
-        .WithMany()
-        .HasForeignKey(w => w.GenderId);
+                .HasOne(w => w.Gender)
+                .WithMany()
+                .HasForeignKey(w => w.GenderId);
 
             // Define the primary key for the Position entity
             builder.Entity<Position>().HasKey(p => p.Id);

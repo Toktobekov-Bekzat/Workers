@@ -24,6 +24,17 @@
     <None Remove="Workers.Application\obj\Debug\net7.0\Workers.Application.AssemblyInfoInputs.cache" />
     <None Remove="Workers.Application\obj\Debug\net7.0\refint\Workers.Application.dll" />
     <None Remove="Workers.Application\bin\Debug\net7.0\Workers.Application.deps.json" />
+    <None Remove="Workers.Application\obj\project.nuget.cache" />
+    <None Remove="Workers.Application\obj\Workers.Application.csproj.nuget.dgspec.json" />
+    <None Remove="Workers.Application\obj\project.assets.json" />
+    <None Remove="Workers.Application\obj\Workers.Application.csproj.nuget.g.props" />
+    <None Remove="Workers.Application\obj\Debug\net7.0\Workers.Application.sourcelink.json" />
+    <None Remove="Workers.Application\obj\Debug\net7.0\Workers.Application.csproj.AssemblyReference.cache" />
+    <None Remove="Workers.Application\obj\Debug\net7.0\ref\Workers.Application.dll" />
+    <None Remove="Workers.Application\bin\Debug\net7.0\Workers.Application.pdb" />
+    <None Remove="Workers.Application\bin\Debug\net7.0\Workers.Domain.pdb" />
+    <None Remove="Workers.Application\bin\Debug\net7.0\Workers.Domain.dll" />
+    <None Remove="Workers.Application\bin\Debug\net7.0\Workers.Application.dll" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -44,5 +55,11 @@
     <Compile Remove="Workers.Application\Workers\Queries\GetWorkers\GetWorkersQuery.cs" />
     <Compile Remove="Workers.Application\Workers\Queries\GetWorkerById\GetWorkerByIdQueryHandler.cs" />
     <Compile Remove="Workers.Application\Workers\Queries\GetWorkerById\GetWorkerByIdQuery.cs" />
+    <Compile Remove="Workers.Application\WorkerPositions\Commands\CreateWorkerPositions\AddWorkerPositionCommandHandler.cs" />
+    <Compile Remove="Workers.Application\WorkerPositions\Commands\CreateWorkerPositions\CreateWorkerPositionCommandHandler.cs" />
+    <Compile Remove="Workers.Application\WorkerPositions\Commands\CreateWorkerPositions\CreateWorkerPositionCommand.cs" />
+    <Compile Remove="Workers.Application\Data\DTOs\WorkerPositionDto.cs" />
+    <Compile Remove="Workers.Application\WorkerPositions\Queries\GetWorkerPositions\GetWorkerPositionsQueryHandler.cs" />
+    <Compile Remove="Workers.Application\WorkerPositions\Queries\GetWorkerPositions\GetWorkerPositionsQuery.cs" />
   </ItemGroup>
 </Project>

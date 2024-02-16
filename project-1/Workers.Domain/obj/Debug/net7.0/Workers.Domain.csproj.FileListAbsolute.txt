@@ -22,4 +22,3 @@
 /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/obj/Debug/net7.0/refint/Workers.Domain.dll
 /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/obj/Debug/net7.0/Workers.Domain.pdb
 /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/obj/Debug/net7.0/ref/Workers.Domain.dll
-/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/obj/Debug/net7.0/Workers.Domain.sourcelink.json

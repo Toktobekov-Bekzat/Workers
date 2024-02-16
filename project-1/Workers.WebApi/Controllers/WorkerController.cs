@@ -14,13 +14,13 @@ namespace Workers.Controllers
     [ApiController]
     public class WorkerController : ControllerBase
     {
-        private readonly IWorkerRepository studentsRepository;
+        private readonly IWorkerRepository workerRepository;
         private readonly IGenderRepository genderRepository;
         private readonly IMediator _mediator;
 
-        public WorkerController(IWorkerRepository studentRepository, IGenderRepository genderRepository, IMediator mediator)
+        public WorkerController(IWorkerRepository workerRepository, IGenderRepository genderRepository, IMediator mediator)
         {
-            this.studentsRepository = studentRepository;
+            this.workerRepository = workerRepository;
             this.genderRepository = genderRepository;
             this._mediator = mediator;
         }

@@ -32,4 +32,3 @@
 /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/refint/Workers.Persistance.dll
 /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/Workers.Persistance.pdb
 /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/ref/Workers.Persistance.dll
-/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/Workers.Persistance.sourcelink.json

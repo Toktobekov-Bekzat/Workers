@@ -170,4 +170,3 @@
 /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.WebApi/obj/Debug/net7.0/Workers.WebApi.pdb
 /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.WebApi/obj/Debug/net7.0/Workers.WebApi.genruntimeconfig.cache
 /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.WebApi/obj/Debug/net7.0/ref/Workers.WebApi.dll
-/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.WebApi/obj/Debug/net7.0/Workers.WebApi.sourcelink.json

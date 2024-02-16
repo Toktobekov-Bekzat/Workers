@@ -17,6 +17,11 @@
     <None Remove="Data\DTOs\" />
     <None Remove="Workers\Commands\DeleteWorkerById\" />
     <None Remove="Workers\Queries\" />
+    <None Remove="WorkerPositions\" />
+    <None Remove="WorkerPositions\Commands\" />
+    <None Remove="WorkerPositions\Queries\" />
+    <None Remove="WorkerPositions\Commands\CreateWorkerPositions\" />
+    <None Remove="WorkerPositions\Queries\GetWorkerPositions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
@@ -29,6 +34,11 @@
     <Folder Include="Data\DTOs\" />
     <Folder Include="Workers\Commands\DeleteWorkerById\" />
     <Folder Include="Workers\Queries\" />
+    <Folder Include="WorkerPositions\" />
+    <Folder Include="WorkerPositions\Commands\" />
+    <Folder Include="WorkerPositions\Queries\" />
+    <Folder Include="WorkerPositions\Commands\CreateWorkerPositions\" />
+    <Folder Include="WorkerPositions\Queries\GetWorkerPositions\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Workers.Domain.csproj" />

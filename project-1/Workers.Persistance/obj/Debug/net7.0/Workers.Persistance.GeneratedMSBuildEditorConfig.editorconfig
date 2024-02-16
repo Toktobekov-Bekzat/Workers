@@ -9,5 +9,3 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Workers.Persistance
 build_property.ProjectDir = /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
