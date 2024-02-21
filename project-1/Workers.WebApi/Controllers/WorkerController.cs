@@ -59,7 +59,7 @@ namespace Workers.Controllers
 
             if (response == null)
             {
-                return BadRequest("Failed to add student.");
+                return BadRequest("Failed to add worker.");
             }
 
             return CreatedAtAction(nameof(GetWorkerById), new { id = response.Id }, response);

@@ -1,4 +1,5 @@
 ﻿using System;
+using Workers.Domain;
 namespace Workers.Application.Data.DTOs
 {
 	public class WorkerDto
@@ -8,6 +9,7 @@ namespace Workers.Application.Data.DTOs
         public string LastName { get; set; }
         public string Gender { get; set; }
         public int Age { get; set; }
+        public string Position { get; set; }
 
         public static int CalculateAge(DateTime dateOfBirth)
         {

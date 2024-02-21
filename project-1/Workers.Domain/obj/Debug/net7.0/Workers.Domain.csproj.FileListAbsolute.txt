@@ -22,3 +22,16 @@
 /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/obj/Debug/net7.0/refint/Workers.Domain.dll
 /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/obj/Debug/net7.0/Workers.Domain.pdb
 /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/obj/Debug/net7.0/ref/Workers.Domain.dll
+C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Domain\bin\Debug\net7.0\Workers.Domain.deps.json
+C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Domain\bin\Debug\net7.0\Workers.Domain.dll
+C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Domain\bin\Debug\net7.0\Workers.Domain.pdb
+C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Domain\obj\Debug\net7.0\Workers.Domain.csproj.AssemblyReference.cache
+C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Domain\obj\Debug\net7.0\Workers.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Domain\obj\Debug\net7.0\Workers.Domain.AssemblyInfoInputs.cache
+C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Domain\obj\Debug\net7.0\Workers.Domain.AssemblyInfo.cs
+C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Domain\obj\Debug\net7.0\Workers.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Domain\obj\Debug\net7.0\Workers.Domain.sourcelink.json
+C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Domain\obj\Debug\net7.0\Workers.Domain.dll
+C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Domain\obj\Debug\net7.0\refint\Workers.Domain.dll
+C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Domain\obj\Debug\net7.0\Workers.Domain.pdb
+C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Domain\obj\Debug\net7.0\ref\Workers.Domain.dll

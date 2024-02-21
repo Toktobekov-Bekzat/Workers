@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Workers.Application.Data.DTOs;
+using Workers.Application.WorkerPositions.Commands.AddWorkerPositions;
 using Workers.Application.WorkerPositions.Queries.GetWorkerPositions;
 
 using Workers.Domain;
@@ -29,6 +30,21 @@ namespace Workers.WebApi.Controllers
         public async Task<IActionResult> GetGetWorkerPositions()
         {
             var response = await _mediator.Send(new GetWorkerPositionsQuery());
+            return Ok(response);
+        }
+
+        [HttpPost]
+        [ProducesResponseType(201)]
+        [ProducesResponseType(400)]
+        public async Task<IActionResult> CreateWorker([FromBody] CreateWorkerPositionCommand request)
+        {
+            var response = await _mediator.Send(request);
+
+            if (response == null)
+            {
+                return BadRequest("Failed to add an entry.");
+            }
+
             return Ok(response);
         }
 

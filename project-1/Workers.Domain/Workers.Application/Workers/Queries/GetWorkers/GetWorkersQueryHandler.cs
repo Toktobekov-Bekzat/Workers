@@ -8,12 +8,10 @@ namespace Workers.Application.Workers.Commands.Queries.GetWorkers
     public class GetWorkersQueryHandler : IRequestHandler<GetWorkersQuery, List<WorkerDto>>
     {
         private readonly IWorkerRepository _workerRepository;
-        private readonly IGenderRepository _genderRepository;
 
-        public GetWorkersQueryHandler(IWorkerRepository workerRepository, IGenderRepository genderRepository)
+        public GetWorkersQueryHandler(IWorkerRepository workerRepository)
         {
             _workerRepository = workerRepository;
-            _genderRepository = genderRepository;
         }
 
         public Task<List<WorkerDto>> Handle(GetWorkersQuery request, CancellationToken cancellationToken)
@@ -26,8 +24,10 @@ namespace Workers.Application.Workers.Commands.Queries.GetWorkers
                 FirstName = s.FirstName,
                 LastName = s.LastName,
                 Gender = s.Gender.Description,
-                Age = WorkerDto.CalculateAge(s.BirthDate)
+                Age = WorkerDto.CalculateAge(s.BirthDate),
+                Position = s.Position != null ? s.Position.Title : "No Position" // Handle null position
             }).ToList();
+
 
             return Task.FromResult(workersWithGenderAndAge);
         }

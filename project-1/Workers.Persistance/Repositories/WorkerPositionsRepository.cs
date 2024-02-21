@@ -25,7 +25,7 @@ namespace Workers.Persistance.Repositories
             return _context.WorkerPositions
                 .Include(wp => wp.Worker)
                 .Include(wp => wp.Position)
-                .FirstOrDefault(wp => wp.PositionId == PositionId)
+                .Where(wp => wp.PositionId == PositionId)
                 .ToList();
         }
 
@@ -42,7 +42,7 @@ namespace Workers.Persistance.Repositories
             return _context.WorkerPositions
                 .Include(wp => wp.Worker)
                 .Include(wp => wp.Position)
-                .FirstOrDefault(wp => wp.WorkerId == WorkerId)
+                .Where(wp => wp.WorkerId == WorkerId)
                 .ToList();
         }
 

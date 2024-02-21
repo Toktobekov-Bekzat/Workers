@@ -3462,33 +3462,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/bekzattoktobekov/.nuget/packages/": {}
+    "C:\\Users\\Bekzat Toktobekov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.WebApi/Workers.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Bekzat Toktobekov\\source\\repos\\Workers\\Workers\\project-1\\Workers.WebApi\\Workers.WebApi.csproj",
       "projectName": "Workers.WebApi",
-      "projectPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.WebApi/Workers.WebApi.csproj",
-      "packagesPath": "/Users/bekzattoktobekov/.nuget/packages/",
-      "outputPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.WebApi/obj/",
+      "projectPath": "C:\\Users\\Bekzat Toktobekov\\source\\repos\\Workers\\Workers\\project-1\\Workers.WebApi\\Workers.WebApi.csproj",
+      "packagesPath": "C:\\Users\\Bekzat Toktobekov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bekzat Toktobekov\\source\\repos\\Workers\\Workers\\project-1\\Workers.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/bekzattoktobekov/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Bekzat Toktobekov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.312/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/Workers.Persistance.csproj": {
-              "projectPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/Workers.Persistance.csproj"
+            "C:\\Users\\Bekzat Toktobekov\\source\\repos\\Workers\\Workers\\project-1\\Workers.Persistance\\Workers.Persistance.csproj": {
+              "projectPath": "C:\\Users\\Bekzat Toktobekov\\source\\repos\\Workers\\Workers\\project-1\\Workers.Persistance\\Workers.Persistance.csproj"
             }
           }
         }
@@ -3541,7 +3542,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

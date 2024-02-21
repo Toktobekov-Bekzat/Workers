@@ -31,6 +31,7 @@ namespace Workers.Persistance.Repositories
         {
             return _context.Workers
                 .Include(s => s.Gender)
+                .Include(s => s.Position)
                 .FirstOrDefault(s => s.Id == id);
         }
 
@@ -38,6 +39,7 @@ namespace Workers.Persistance.Repositories
         {
             return _context.Workers
                 .Include(s => s.Gender)
+                .Include(s => s.Position)
                 .ToList();
         }
     }

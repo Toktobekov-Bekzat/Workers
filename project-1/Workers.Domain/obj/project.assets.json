@@ -614,24 +614,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/bekzattoktobekov/.nuget/packages/": {}
+    "C:\\Users\\Bekzat Toktobekov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Bekzat Toktobekov\\source\\repos\\Workers\\Workers\\project-1\\Workers.Domain\\Workers.Domain.csproj",
       "projectName": "Workers.Domain",
-      "projectPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/Workers.Domain.csproj",
-      "packagesPath": "/Users/bekzattoktobekov/.nuget/packages/",
-      "outputPath": "/Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Domain/obj/",
+      "projectPath": "C:\\Users\\Bekzat Toktobekov\\source\\repos\\Workers\\Workers\\project-1\\Workers.Domain\\Workers.Domain.csproj",
+      "packagesPath": "C:\\Users\\Bekzat Toktobekov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bekzat Toktobekov\\source\\repos\\Workers\\Workers\\project-1\\Workers.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/bekzattoktobekov/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Bekzat Toktobekov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -679,7 +681,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -12,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<IWorkerRepository, WorkerRepository>();
 builder.Services.AddScoped<IGenderRepository, GenderRepository>();
 builder.Services.AddScoped<IWorkerPositionsRepository, WorkerPositionsRepository>();
+builder.Services.AddScoped<IPositionRepository, PositionRepository>();
 
 foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
 {
@@ -26,7 +27,13 @@ builder.Services.AddDbContext<WorkerDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection"),
         b => b.MigrationsAssembly("Workers.WebApi")); // Change to match your WebApi project
+
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        sqlServerOptions => sqlServerOptions.EnableRetryOnFailure());
 });
+
+
 
 
 
@@ -36,7 +43,7 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<WorkerDbContext>();
-    dbContext.Database.Migrate();
+    /*dbContext.Database.Migrate();*/
 }
 
 // Configure the HTTP request pipeline.

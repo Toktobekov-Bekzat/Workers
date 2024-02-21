@@ -11,6 +11,8 @@ namespace Workers.Persistance
     {
 		public DbSet<Worker> Workers { get; set; }
         public DbSet<Gender> Genders { get; set; }
+
+        public DbSet<Position> Position { get; set; }
         public DbSet<WorkerPositions> WorkerPositions { get; set; }
 
         public WorkerDbContext(DbContextOptions<WorkerDbContext> options) : base(options)
@@ -27,7 +29,8 @@ namespace Workers.Persistance
             builder.Entity<Worker>()
                 .HasOne(w => w.Gender)
                 .WithMany()
-                .HasForeignKey(w => w.GenderId);
+                .HasForeignKey(w => w.GenderId)
+                .OnDelete(DeleteBehavior.NoAction);
 
             // Define the primary key for the Position entity
             builder.Entity<Position>().HasKey(p => p.Id);
@@ -56,7 +59,9 @@ namespace Workers.Persistance
             builder.Entity<Worker>()
                 .HasOne(w => w.Position)
                 .WithMany(p => p.Workers)
-                .HasForeignKey(w => w.PositionId);
+                .HasForeignKey(w => w.PositionId)
+                .OnDelete(DeleteBehavior.NoAction);
+
 
             // Call base method
             base.OnModelCreating(builder);
