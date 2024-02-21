@@ -34,9 +34,7 @@
     <Folder Include="Data\DTOs\" />
     <Folder Include="Workers\Commands\DeleteWorkerById\" />
     <Folder Include="Workers\Queries\" />
-    <Folder Include="WorkerPositions\" />
     <Folder Include="WorkerPositions\Commands\" />
-    <Folder Include="WorkerPositions\Queries\" />
     <Folder Include="WorkerPositions\Commands\CreateWorkerPositions\" />
     <Folder Include="WorkerPositions\Queries\GetWorkerPositions\" />
   </ItemGroup>
