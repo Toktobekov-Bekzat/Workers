@@ -32,21 +32,21 @@
 /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/refint/Workers.Persistance.dll
 /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/Workers.Persistance.pdb
 /Users/bekzattoktobekov/Projects/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/ref/Workers.Persistance.dll
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\bin\Debug\net7.0\Workers.Persistance.deps.json
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\bin\Debug\net7.0\Workers.Persistance.dll
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\bin\Debug\net7.0\Workers.Persistance.pdb
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\bin\Debug\net7.0\Workers.Application.dll
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\bin\Debug\net7.0\Workers.Domain.dll
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\bin\Debug\net7.0\Workers.Application.pdb
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\bin\Debug\net7.0\Workers.Domain.pdb
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\obj\Debug\net7.0\Workers.Persistance.csproj.AssemblyReference.cache
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\obj\Debug\net7.0\Workers.Persistance.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\obj\Debug\net7.0\Workers.Persistance.AssemblyInfoInputs.cache
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\obj\Debug\net7.0\Workers.Persistance.AssemblyInfo.cs
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\obj\Debug\net7.0\Workers.Persistance.csproj.CoreCompileInputs.cache
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\obj\Debug\net7.0\Workers.Persistance.sourcelink.json
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\obj\Debug\net7.0\Workers.Persistance.csproj.CopyComplete
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\obj\Debug\net7.0\Workers.Persistance.dll
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\obj\Debug\net7.0\refint\Workers.Persistance.dll
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\obj\Debug\net7.0\Workers.Persistance.pdb
-C:\Users\Bekzat Toktobekov\source\repos\Workers\Workers\project-1\Workers.Persistance\obj\Debug\net7.0\ref\Workers.Persistance.dll
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/bin/Debug/net7.0/Workers.Persistance.deps.json
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/bin/Debug/net7.0/Workers.Persistance.dll
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/bin/Debug/net7.0/Workers.Persistance.pdb
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/bin/Debug/net7.0/Workers.Application.dll
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/bin/Debug/net7.0/Workers.Domain.dll
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/bin/Debug/net7.0/Workers.Application.pdb
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/bin/Debug/net7.0/Workers.Domain.pdb
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/Workers.Persistance.csproj.AssemblyReference.cache
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/Workers.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/Workers.Persistance.AssemblyInfoInputs.cache
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/Workers.Persistance.AssemblyInfo.cs
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/Workers.Persistance.csproj.CoreCompileInputs.cache
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/Workers.Persistance.sourcelink.json
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/Workers.Persistance.csproj.CopyComplete
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/Workers.Persistance.dll
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/refint/Workers.Persistance.dll
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/Workers.Persistance.pdb
+C:/Users/Bekzat Toktobekov/source/repos/Workers/Workers/project-1/Workers.Persistance/obj/Debug/net7.0/ref/Workers.Persistance.dll

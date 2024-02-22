@@ -62,6 +62,17 @@ namespace Workers.Persistance
                 .HasForeignKey(w => w.PositionId)
                 .OnDelete(DeleteBehavior.NoAction);
 
+            //builder.Entity<WorkerPositions>()
+            //    .HasOne(wp => wp.Worker)
+            //    .WithMany(w => w.WorkerPositions)
+            //    .HasForeignKey(wp => wp.WorkerId)
+            //    .OnDelete(DeleteBehavior.NoAction); // or DeleteBehavior.SetNull, depending on your requirements
+
+            //builder.Entity<WorkerPositions>()
+            //    .HasOne(wp => wp.Position)
+            //    .WithMany(p => p.WorkerPositions)
+            //    .HasForeignKey(wp => wp.PositionId)
+            //    .OnDelete(DeleteBehavior.NoAction); // or DeleteBehavior.SetNull
 
             // Call base method
             base.OnModelCreating(builder);

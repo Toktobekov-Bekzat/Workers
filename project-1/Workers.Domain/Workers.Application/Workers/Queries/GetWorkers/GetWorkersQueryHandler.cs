@@ -25,7 +25,7 @@ namespace Workers.Application.Workers.Commands.Queries.GetWorkers
                 LastName = s.LastName,
                 Gender = s.Gender.Description,
                 Age = WorkerDto.CalculateAge(s.BirthDate),
-                Position = s.Position != null ? s.Position.Title : "No Position" // Handle null position
+                Title = s.Position != null ? s.Position.Title : "No Position" // Handle null position
             }).ToList();
 
 

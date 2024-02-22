@@ -9,7 +9,7 @@ namespace Workers.Application.Data.DTOs
         public string LastName { get; set; }
         public string Gender { get; set; }
         public int Age { get; set; }
-        public string Position { get; set; }
+        public string Title { get; set; }
 
         public static int CalculateAge(DateTime dateOfBirth)
         {

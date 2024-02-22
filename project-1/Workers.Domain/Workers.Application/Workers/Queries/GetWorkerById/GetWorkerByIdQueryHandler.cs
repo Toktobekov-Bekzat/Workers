@@ -33,7 +33,7 @@ namespace Workers.Application.Workers.Commands.Queries.GetWorkerById
                 LastName = worker.LastName,
                 Gender = worker.Gender.Description,
                 Age = WorkerDto.CalculateAge(worker.BirthDate),
-                Position = worker.Position != null ? worker.Position.Title : "No Position"
+                Title = worker.Position != null ? worker.Position.Title : "No Position"
             };
 
             return workerWithAgeandGender;

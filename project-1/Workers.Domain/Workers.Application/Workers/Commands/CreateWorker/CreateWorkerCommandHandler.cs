@@ -11,11 +11,13 @@ namespace Workers.Application.Workers.Commands.CreateWorker
 	{
         private readonly IWorkerRepository _workerRepository;
         private readonly IGenderRepository _genderRepository;
+        private readonly IPositionRepository _positionRepository;
 
-        public CreateWorkerCommandHandler(IWorkerRepository workerRepository, IGenderRepository genderRepository)
+        public CreateWorkerCommandHandler(IWorkerRepository workerRepository, IGenderRepository genderRepository, IPositionRepository positionRepository)
         {
             _workerRepository = workerRepository;
             _genderRepository = genderRepository;
+            _positionRepository = positionRepository;
         }
 
         public async Task<WorkerDto> Handle(CreateWorkerCommand request, CancellationToken cancellationToken)
@@ -47,7 +49,8 @@ namespace Workers.Application.Workers.Commands.CreateWorker
                 FirstName = worker.FirstName,
                 LastName = worker.LastName,
                 Gender = worker.Gender.Description,
-                Age = WorkerDto.CalculateAge(worker.BirthDate)
+                Age = WorkerDto.CalculateAge(worker.BirthDate),
+                Title = _positionRepository.GetPositionById(request.PositionId).Title
 
             };
 

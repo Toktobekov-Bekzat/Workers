@@ -1,0 +1,85 @@
+﻿<Properties StartupConfiguration="{879D40D8-8C5A-4EA7-BA61-EACC8398271A}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Workers.Persistance/WorkerDbContext.cs">
+    <Files>
+      <File FileName="Workers.Domain/Genders.cs" />
+      <File FileName="Workers.Persistance/WorkerDbContext.cs" Line="74" Column="54" />
+      <File FileName="Workers.Domain/Workers.Application/Interfaces/IWorkerDbContext.cs" />
+      <File FileName="Workers.WebApi/Controllers/WorkerController.cs" Line="56" Column="71" />
+      <File FileName="Workers.Domain/Workers.Application/Workers/Commands/DeleteWorkerById/DeleteWorkerByIdCommand.cs" />
+      <File FileName="Workers.Domain/Workers.Application/Workers/Commands/DeleteWorkerById/DeleteWorkerByIdCommandHandler.cs" />
+      <File FileName="Workers.WebApi/appsettings.json" Line="15" Column="1" />
+      <File FileName="Workers.Domain/Worker.cs" Line="22" Column="1" />
+      <File FileName="Workers.Domain/Position.cs" Line="14" Column="1" />
+      <File FileName="Workers.Persistance/EntityTypeConfiguration/WorkerConfiguration.cs" Line="28" Column="1" />
+      <File FileName="Workers.WebApi/Program.cs" Line="1" Column="1" />
+      <File FileName="Workers.Domain/Workers.Application/Workers/Queries/GetWorkers/GetWorkersQueryHandler.cs" Line="23" Column="1" />
+      <File FileName="Workers.Domain/Workers.Application/Workers/Queries/GetWorkers/GetWorkersQuery.cs" />
+      <File FileName="Workers.Domain/Workers.Application/Data/DTOs/WorkerDto.cs" Line="12" Column="28" />
+      <File FileName="Workers.Domain/Workers.Domain.csproj" />
+      <File FileName="Workers.Persistance/DbInitializer.cs" Line="1" Column="1" />
+      <File FileName="Workers.Domain/Interfaces/IGenderRepository.cs" />
+      <File FileName="Workers.Domain/Workers.Application/Common/Mappings/IMapWith.cs" Line="13" Column="1" />
+      <File FileName="Workers.Domain/Workers.Application/Common/Mappings/AssemblyMappingProfile.cs" Line="33" Column="1" />
+      <File FileName="Workers.Domain/WorkerPositions.cs" Line="7" Column="28" />
+      <File FileName="Workers.Domain/Workers.Application/Workers/Commands/CreateWorker/CreateWorkerCommand.cs" Line="7" Column="15" />
+      <File FileName="Workers.Domain/Workers.Application/Data/DTOs/WorkerPositionDto.cs" />
+      <File FileName="Workers.Domain/Workers.Application/Workers/Commands/CreateWorker/CreateWorkerCommandHandler.cs" Line="53" Column="86" />
+      <File FileName="Workers.Persistance/Repositories/WorkerPositionsRepository.cs" />
+      <File FileName="Workers.Domain/Interfaces/IWorkerPositionsRepository.cs" />
+      <File FileName="Workers.Persistance/Repositories/WorkerRepository.cs" />
+      <File FileName="Workers.Domain/Interfaces/IWorkerRepository.cs" />
+      <File FileName="Workers.Domain/Workers.Application/WorkerPositions/Queries/GetWorkerPositions/GetWorkerPositionsQueryHandler.cs" Line="1" Column="1" />
+      <File FileName="Workers.Domain/Workers.Application/Workers/Queries/GetWorkerById/GetWorkerByIdQuery.cs" />
+      <File FileName="Workers.Domain/Workers.Application/WorkerPositions/Commands/CreateWorkerPositions/CreateWorkerPositionCommand.cs" />
+      <File FileName="Workers.Domain/Workers.Application/WorkerPositions/Commands/CreateWorkerPositions/CreateWorkerPositionCommandHandler.cs" Line="37" Column="83" />
+      <File FileName="Workers.WebApi/Controllers/WorkerPositionController.cs" Line="1" Column="1" />
+      <File FileName="Workers.Domain/Workers.Application/Workers/Queries/GetWorkerById/GetWorkerByIdQueryHandler.cs" Line="42" Column="6" />
+      <File FileName="Workers.Domain/UserLogin.cs" Line="7" Column="37" />
+      <File FileName="Workers.Domain/User.cs" Line="16" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="Workers" expanded="True">
+            <Node name="Core" expanded="True">
+              <Node name="Workers.Application">
+                <Node name="Common" expanded="True">
+                  <Node name="Mappings" expanded="True" />
+                </Node>
+                <Node name="Interfaces" expanded="True" />
+                <Node name="WorkerPositions" expanded="True">
+                  <Node name="Queries" expanded="True">
+                    <Node name="GetWorkerPositions" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="Workers">
+                  <Node name="Queries" expanded="True">
+                    <Node name="GetWorkers" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="Workers.Persistance">
+                <Node name="EntityTypeConfiguration" expanded="True" />
+                <Node name="WorkerDbContext.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Presentation" expanded="True" />
+            <Node name="Workers.WebApi" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Presentation.Workers.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

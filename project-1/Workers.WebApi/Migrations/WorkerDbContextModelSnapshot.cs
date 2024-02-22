@@ -37,6 +37,33 @@ namespace Workers.WebApi.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Genders");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Male"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Female"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Non-binary"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Description = "Prefer not to say"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Description = "Other"
+                        });
                 });
 
             modelBuilder.Entity("Workers.Domain.Position", b =>
@@ -54,13 +81,41 @@ namespace Workers.WebApi.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Position");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Title = "Software Engineer"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Title = "Data Scientist"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Title = "Product Manager"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Title = "UX/UI Designer"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Title = "QA Engineer"
+                        });
                 });
 
             modelBuilder.Entity("Workers.Domain.Worker", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("WorkerId");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
@@ -69,26 +124,34 @@ namespace Workers.WebApi.Migrations
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("GenderId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("GenderId1")
+                        .HasColumnType("int");
+
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("PositionId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("GenderId")
-                        .IsUnique();
+                    b.HasIndex("GenderId");
+
+                    b.HasIndex("GenderId1")
+                        .IsUnique()
+                        .HasFilter("[GenderId1] IS NOT NULL");
 
                     b.HasIndex("PositionId");
 
-                    b.ToTable("Workers");
+                    b.ToTable("Workers", (string)null);
                 });
 
             modelBuilder.Entity("Workers.Domain.WorkerPositions", b =>
@@ -123,15 +186,19 @@ namespace Workers.WebApi.Migrations
             modelBuilder.Entity("Workers.Domain.Worker", b =>
                 {
                     b.HasOne("Workers.Domain.Gender", "Gender")
-                        .WithOne("Worker")
-                        .HasForeignKey("Workers.Domain.Worker", "GenderId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .WithMany()
+                        .HasForeignKey("GenderId")
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
+
+                    b.HasOne("Workers.Domain.Gender", null)
+                        .WithOne("Worker")
+                        .HasForeignKey("Workers.Domain.Worker", "GenderId1");
 
                     b.HasOne("Workers.Domain.Position", "Position")
                         .WithMany("Workers")
                         .HasForeignKey("PositionId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.Navigation("Gender");
@@ -143,11 +210,13 @@ namespace Workers.WebApi.Migrations
                 {
                     b.HasOne("Workers.Domain.Position", "Position")
                         .WithMany("WorkerPositions")
-                        .HasForeignKey("PositionId");
+                        .HasForeignKey("PositionId")
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.HasOne("Workers.Domain.Worker", "Worker")
-                        .WithMany()
-                        .HasForeignKey("WorkerId");
+                        .WithMany("WorkerPositions")
+                        .HasForeignKey("WorkerId")
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.Navigation("Position");
 
@@ -165,6 +234,11 @@ namespace Workers.WebApi.Migrations
                     b.Navigation("WorkerPositions");
 
                     b.Navigation("Workers");
+                });
+
+            modelBuilder.Entity("Workers.Domain.Worker", b =>
+                {
+                    b.Navigation("WorkerPositions");
                 });
 #pragma warning restore 612, 618
         }

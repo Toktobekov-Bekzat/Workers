@@ -62,7 +62,7 @@ namespace Workers.Controllers
                 return BadRequest("Failed to add worker.");
             }
 
-            return CreatedAtAction(nameof(GetWorkerById), new { id = response.Id }, response);
+            return Ok(response);
         }
 
         [HttpDelete("{id}")]

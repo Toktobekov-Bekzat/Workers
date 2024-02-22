@@ -15,10 +15,7 @@
         public Position Position { get; set; }
         public int PositionId { get; set; }
 
-        //WorkerPosition
-
-
-
+        //public ICollection<WorkerPositions> WorkerPositions { get; set; }
 
     }
 }
